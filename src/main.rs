@@ -12,8 +12,8 @@ fn main() {
 
     let mut img = Image::gen_image_color(width, height, background_color);
 
-    let point1: Vector2 = Vector2::new(250.0, 250.0);
-    let point2: Vector2 = Vector2::new(100.0, 500.0);
+    let point1: Vector2 = Vector2::new(300.0, 300.0);
+    let point2: Vector2 = Vector2::new(500.0, 300.0);
     draw_line(&mut img, point1, point2, Color::RED);
 
     img.export_image(&file_path);
